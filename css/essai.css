@@ -30,7 +30,6 @@
 .profil p {
     display: flex;
     justify-content: center;
-    background-color: #333;
     color: #f1f1f1;
 }
 
@@ -44,7 +43,6 @@
 .container {
     margin-top: 18px;
     height: 260px;
-    background: #333;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -54,7 +52,6 @@
 
 .profil h1 {
     font-size: 40px;
-    background-color: #333;
     color: #f1f1f1;
     display: flex;
     justify-content: center;
@@ -107,7 +104,7 @@ header {
 }
 
 body {
-    margin: auto;
+    margin: 5px;
     margin-top: -28px;
     padding: 0px;
     background-color: #4e4e4e;
@@ -126,21 +123,37 @@ body {
 }
 
 /*SECTION COMPETENCES*/
-.competpro {
-    margin-top: 25px;
+.comp {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.competpro h1 {
+.about {
     display: flex;
     justify-content: center;
 }
 
-.competperso {
-    margin-top: 75px;
+.competpro h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.competperso h2 {
+    display: flex;
+    justify-content: center;
 }
 
 .skills {
     margin-top: 75px;
+}
+
+.skills h2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 table {
