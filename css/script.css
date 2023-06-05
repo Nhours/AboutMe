@@ -93,7 +93,7 @@ header p {
 
 header {
     background-color: #B48E79;
-    color: #333;
+    color: black;
     margin-top: 28px;
     margin-bottom: 0px;
     height: 170px;
@@ -190,28 +190,28 @@ td {
 }
 
 .c1 {
-    color: #333;
+    color: black;
     width: 95%;
     display: flex;
     justify-content: center;
 }
 
 .c2 {
-    color: #333;
+    color: black;
     width: 55%;
     display: flex;
     justify-content: center;
 }
 
 .c3 {
-    color: #333;
+    color: black;
     width: 35%;
     display: flex;
     justify-content: center;
 }
 
 .c4 {
-    color: #333;
+    color: black;
     width: 95%;
     display: flex;
     justify-content: center;
@@ -294,17 +294,38 @@ td {
 }
 
 /* OBJECTIFS */
-.objectif h1 {
+/* .objectif h1 {
     border: solid;
     display: flex;
     justify-content: center;
 }
 
 .objectif1 {
-    border: solid;
-    width: 30%;
+    margin-top: 50px;
+    width: auto;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #F1F1F1;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+} */
+
+.containerobjectif {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    /* border: 1px solid #000000; */
+}
+
+.column h2 {
+    display: flex;
+    justify-content: center;
+    color: #B48E79;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+li {
+    color: #f1f1f1;
 }
