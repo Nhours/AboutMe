@@ -1,15 +1,18 @@
 .navbar {
+    margin: -18px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
+    font-size: 30px;
     /* Couleur de fond de la navbar */
 }
 
 .navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #B48E79;
     /* Couleur du texte des liens */
     text-align: center;
     padding: 14px 16px;
@@ -23,36 +26,101 @@
     /* Couleur du texte au survol */
 }
 
-.profil h1, .profil p {
-    box-shadow: 0 4px 8px rgb(82, 136, 89);
+.profil h1,
+.profil p {
     display: flex;
     justify-content: center;
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.profil p {
+    font-size: 18px;
+    margin-top: -80px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container {
+    margin-top: 18px;
+    height: 260px;
+    background: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.profil h1 {
+    font-size: 40px;
+    background-color: #333;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    height: 50px;
 }
 
 .photodeprofil {
-    box-shadow: 0 4px 8px gray;
     display: flex;
     justify-content: center;
 }
 
 img {
+    border: none;
     border-radius: 50%;
+    width: 100px;
+    margin-left: 20px;
 }
 
 figcaption {
+    color: #F1F1F1;
     display: flex;
     justify-content: center;
 }
 
-header h2, header p {
+header h2 {
+    font-size: 30px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+header p {
+    font-size: 18px;
     display: flex;
     justify-content: center;
 }
 
 header {
-    box-shadow: 0 4px 8px rgb(119, 53, 114);
+    background-color: #B48E79;
+    color: #333;
+    margin-top: 28px;
+    margin-bottom: 0px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+body {
+    margin: auto;
+    margin-top: -28px;
+    padding: 0px;
+    background-color: #333;
 }
 
 .description {
-    box-shadow: 0 4px 8px rgb(9, 224, 38);
+    font-size: 18px;
+    margin: 32px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 150px;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
