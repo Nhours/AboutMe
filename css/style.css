@@ -1,3 +1,14 @@
+/* ---------------- [ ctrl + / ] for (un)comment --------------- */
+/* *{box-shadow: -1px 1px 10px 1px rgba(0, 0, 0, 0.5) inset;}  */
+/* body{box-shadow: -1px 1px 10px 3px red inset;} */
+/* header{box-shadow: -1px 1px 10px 3px yellow inset;} */
+/* section{box-shadow: -1px 1px 10px 3px blue inset;} */
+/* ------------------------------------------------------------- */
+
+body {
+    background-color: #333;
+}
+
 ul {
     background-color: rgb(132, 0, 255);
     display: flex;
@@ -12,10 +23,14 @@ a {
     color: #f1f1f1;
 }
 
-.profil h1 {
+.profil h1, .profil p {
     background-color: blue;
     display: flex;
     justify-content: center;
+}
+
+.profil p {
+    color: white;
 }
 
 .photodeprofil {
@@ -28,6 +43,21 @@ img {
     border-radius: 50%;
 }
 
+figcaption {
+    display: flex;
+    justify-content: center;
+}
+
 .description {
     background-color: aqua;
+}
+
+header h2,
+header p {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background-color: red;
 }
