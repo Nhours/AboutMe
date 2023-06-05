@@ -1,0 +1,33 @@
+ul {
+    background-color: rgb(132, 0, 255);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: #f1f1f1;
+}
+
+.profil h1 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.photodeprofil {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.description {
+    background-color: aqua;
+}
