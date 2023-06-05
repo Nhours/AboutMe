@@ -110,7 +110,7 @@ body {
     margin: auto;
     margin-top: -28px;
     padding: 0px;
-    background-color: #333;
+    background-color: #4e4e4e;
 }
 
 .description {
@@ -130,16 +130,27 @@ body {
     margin-top: 25px;
 }
 
+.competpro h1 {
+    display: flex;
+    justify-content: center;
+}
+
 .competperso {
     margin-top: 75px;
 }
 
+.skills {
+    margin-top: 75px;
+}
+
 table {
-    width: 100%;
+    margin-left: 145px;
+    width: 80%;
     border-collapse: collapse;
 }
 
 td {
+    width: 300px;
     color: #f1f1f1;
     padding: 10px;
     border: 1px solid #ccc;
