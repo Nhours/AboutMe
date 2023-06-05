@@ -65,7 +65,7 @@
     justify-content: center;
 }
 
-img {
+.photodeprofil img {
     border: none;
     border-radius: 50%;
     width: 100px;
@@ -132,6 +132,7 @@ body {
 }
 
 .about {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
@@ -139,11 +140,15 @@ body {
 .competpro h2 {
     display: flex;
     justify-content: center;
+    color: #B48E79;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .competperso h2 {
     display: flex;
     justify-content: center;
+    color: #B48E79;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .skills {
@@ -154,6 +159,8 @@ body {
     margin-top: 100px;
     display: flex;
     justify-content: center;
+    color: #B48E79;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 table {
@@ -208,4 +215,79 @@ td {
     width: 95%;
     display: flex;
     justify-content: center;
+}
+
+/* PASSIONS */
+.titre h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.passion1 {
+    margin-top: 50px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.passion2 {
+    margin-top: 50px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gaming img,
+.rand img,
+.kitchen img,
+.tech img {
+    border: none;
+    border-radius: 50%;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.gaming h2,
+.rand h2,
+.kitchen h2,
+.tech h2 {
+    color: #B48E79;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.rand {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F1F1F1;
+}
+
+.gaming {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F1F1F1;
+}
+
+.kitchen {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F1F1F1;
+}
+
+.tech {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F1F1F1;
 }
