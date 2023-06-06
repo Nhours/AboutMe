@@ -254,12 +254,13 @@ td {
     justify-content: center;
 }
 
-.gaming h2,
-.rand h2,
-.kitchen h2,
-.tech h2 {
+.gaming figcaption,
+.rand figcaption,
+.kitchen figcaption,
+.tech figcaption {
     color: #B48E79;
     text-shadow: 2px 2px 4px #000000;
+    margin: 10px;
 }
 
 .rand {
