@@ -94,7 +94,7 @@ header p {
 header {
     background-color: #B48E79;
     color: black;
-    margin-top: 28px;
+    margin-top: 0px;
     margin-bottom: 0px;
     height: 170px;
     display: flex;
@@ -104,8 +104,10 @@ header {
 }
 
 body {
-    margin: 5px;
-    margin-top: -28px;
+    border: solid;
+    margin: 0px;
+    /* margin-top: -28px;
+    margin-bottom: 0px; */
     padding: 0px;
     background-color: #4e4e4e;
 }
@@ -328,4 +330,15 @@ td {
 
 li {
     color: #f1f1f1;
+}
+
+.containerfooter {
+    background-color: #B48E79;
+    color: black;
+    height: 235px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
