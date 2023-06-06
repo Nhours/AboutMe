@@ -106,9 +106,8 @@ header {
 body {
     border: solid;
     margin: 0px;
-    /* margin-top: -28px;
-    margin-bottom: 0px; */
     padding: 0px;
+    height: 100%;
     background-color: #4e4e4e;
 }
 
@@ -335,6 +334,9 @@ li {
 .containerfooter {
     background-color: #B48E79;
     color: black;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 50px;
     height: 235px;
     display: flex;
     flex-wrap: wrap;
