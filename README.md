@@ -1,6 +1,6 @@
 #About me
 
->### Original
+>### Sébastien
 - [ ] *pull*
 - [ ] *push*
 ###### *Respect de la consigne*
