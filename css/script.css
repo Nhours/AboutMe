@@ -1,5 +1,5 @@
 .navbar {
-    margin: -18px;
+    margin: 0px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -103,6 +103,12 @@ header {
     align-content: space-around;
 }
 
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
 body {
     border: solid;
     margin: 0px;
@@ -133,6 +139,8 @@ body {
 }
 
 .about {
+    color: #B48E79;
+    text-shadow: 2px 2px 4px #000000;
     margin-top: 50px;
     display: flex;
     justify-content: center;
@@ -219,8 +227,10 @@ td {
 }
 
 /* PASSIONS */
-.titre h1 {
-    border: solid;
+.titre {
+    color: #B48E79;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
@@ -296,23 +306,17 @@ td {
 }
 
 /* OBJECTIFS */
-/* .objectif h1 {
-    border: solid;
+.objectif {
+    color: #B48E79;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
-} */
-
-/* .objectif1 {
-    margin-top: 50px;
-    width: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-} */
+}
 
 .containerobjectif {
     display: flex;
+    margin-top: 50px;
 }
 
 .column {
@@ -338,6 +342,8 @@ li {
     margin: 0px;
     padding: 0px;
     margin-top: 50px;
+    bottom: 0%;
+    width: 100%;
     height: 235px;
     display: flex;
     flex-wrap: wrap;
